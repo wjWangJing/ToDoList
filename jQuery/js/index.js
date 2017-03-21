@@ -7,18 +7,11 @@
     ];
     var init = function(){
         var domElement = {
-            $Item : $(".Item"),
-            $submitBtn : $(".submitBtn"),
-            $ItemContainer : $(".ItemContainer"),
-            $checkBtn : $(".checkBtn"),
-            $ItemInner : $(".ItemInner"),
-            $detailBtn : $(".detailBtn"),
-            $deleteBtn : $(".deleteBtn"),
-            taskInner : $(".ItemContainer").html()
+
         };
-        showTask(domElement);
-        addTask(domElement);
-        removeTask(domElement);
+        // showTask(domElement);
+        // addTask(domElement);
+        // removeTask(domElement);
     };
     /**
      * 展示已经存在的task

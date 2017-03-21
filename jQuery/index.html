@@ -10,18 +10,17 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-<div class="container">
-    <h1>MyToDoList</h1>
-    <div class="InputItem">
-        <input type="text" placeholder="想做点什么呢？" class="Item"/>
-        <input type="button" class="submitBtn" value="提交"/>
+<div class="todo-box">
+    <h1 class="task-title">ToDoList</h1>
+    <div class="addTask-box">
+        <input type="text" class="addTask" placeholder="想做点什么呢？">
+        <input type="button" class="submitBtn" value="添加">
     </div>
-    <ul class="ItemContainer">
+    <ul class="task-box">
         <li>
-            <input type="checkbox" class="checkBtn" title=""/>
-            <span class="ItemInner">{{item}}</span>
-            <input type="button" value="详细" class="detailBtn">
-            <input type="button" value="删除" class="deleteBtn">
+            <input type="checkbox" class="toggle" title="">
+            <span>todoList1</span>
+            <button class="deleteBtn">×</button>
         </li>
     </ul>
 </div>
